@@ -26,16 +26,22 @@ export const Projects = () => {
       title: "Web Developer Portfolio",
       description: "Design & Development",
       imgUrl: Portfolio,
+      github: "https://github.com/Camicardenasp/p",
+      deploy: "https://cacp.netlify.app/",
     },
     {
       title: "Pawe's E-Commerce",
       description: "Design & Development",
-      imgUrl: Pawe,
+      imgUrl: Pawe, 
+      github: "https://github.com/Camicardenasp/pawe",
+      deploy: "https://pawe.netlify.app/",
     },
     {
       title: "Game: Wheel of Doom",
       description: "Game Design",
       imgUrl: Cuerda,
+      github: "https://github.com/Camicardenasp/EnLaCuerdaFloja",
+      deploy: "https://enlacuerdafloja.netlify.app/",
     },
   ];
 
@@ -44,11 +50,15 @@ export const Projects = () => {
       title: "Music Portfolio",
       description: "Design & Development",
       imgUrl: Music,
+      github: "https://github.com/Camicardenasp/MusicPortfolio",
+      deploy: "https://musicportfolio.camicardenasp.repl.co/",
     },
     {
       title: "Rick & Morty",
       description: "API Consumption",
       imgUrl: Rick,
+      github: "https://github.com/Camicardenasp/rick",
+      deploy: "https://camicardenasp.github.io/rick/",
     },
     {
       title: "NTF's Landing Page",
@@ -62,11 +72,13 @@ export const Projects = () => {
       title: "SoundWave Music App",
       description: "Figma UI Design",
       imgUrl: Sound,
-    }, {
+    }, 
+    {
       title: "Use of Brand Manual",
       description: "Figma UI Design",
       imgUrl: Marca,
-    }, {
+    }, 
+    {
       title: "Spotify Clone",
       description: "Figma UI Design",
       imgUrl: Spotify,

@@ -510,6 +510,8 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   transition: 0.5s ease-in-out;
   opacity: 0;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .proj-imgbx:hover .proj-txtx {
@@ -538,6 +540,39 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   width: 35%;
   right: 0;
   z-index: -4;
+}
+
+/* .proj-but-span {
+  display: flex;
+  justify-content: space-around;
+} */
+
+.proj-button {
+  font-weight: 700;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 10px;
+  padding: 5px 5px;
+  font-size: 18px;
+  margin-top: 18px;
+  margin-right: 7px;
+  margin-left: 7px;
+  position: relative;
+  background-color: transparent;
+  transition: 0.3s ease-in-out;
+}
+.proj-button a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.proj-button:hover {
+  background-color: white;
+}
+
+.proj-button a:hover {
+  text-decoration: none;
+  color: black;
 }
 
 /************ Projects Css ************/
