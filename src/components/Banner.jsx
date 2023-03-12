@@ -56,7 +56,8 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <span className="tagline">Welcome to my Portfolio</span>
-                  <h1>{`Hi! I'm Camilo Cárdenas Poveda`} <br></br> <span className="txt-rotate" dataperiod="1000" data-rotate='[ "Musician", "Web Developer", "Web Designer", "UI/UX Designer", "Data Analyst", "Consultant", "Sustainability Analyst" ]'><span className="wrap">{text}</span></span></h1>
+                  <h1>{`Hi! I'm Camilo Cárdenas Poveda`} <br></br> </h1>
+                  <h4><span className="txt-rotate" dataperiod="1000" data-rotate='[ "Musician", "Web Developer", "Web Designer", "UI/UX Designer", "Data Analyst", "Consultant", "Sustainability Analyst" ]'><span className="wrap">{text}</span></span></h4>
                   <p>I am a cheerful, responsible and proactive person. At the end of my professional career I began to certify myself as a Data Scientist and Web Developer in the DataCamp and SoloLearn platforms respectively. Through this experience I have learned to analyze data with Python, R and SQL, as well as Web Development in HTML, CSS and JavaScript.
                     <br></br>
                     <br></br>I am currently studying the Full-Stack Developer bootcamp at Prográmate-School in the EducaMás, GOYN & Simplon partnership program.</p>
