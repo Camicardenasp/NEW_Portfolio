@@ -3,9 +3,7 @@ import figma from "../assets/Logos/figma.svg";
 import python from "../assets/Logos/python.svg";
 import mern from '../assets/Logos/mern.png'
 import mongo from '../assets/Logos/mongodb.svg'
-import express from '../assets/Logos/expressjs-light.svg'
 import express2 from '../assets/Logos/expressjs-dark.svg'
-
 import reactLogo from "../assets/Logos/react.svg";
 import node from '../assets/Logos/node.svg'
 import tailwind from '../assets/Logos/tailwind.svg'
@@ -16,8 +14,6 @@ import JavaScript from '../assets/Logos/javascript.svg'
 import Git from '../assets/Logos/git.svg'
 import MySql from '../assets/Logos/mysql.svg'
 import PowerBI from '../assets/Logos/powerbi.png'
-
-
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -55,7 +51,7 @@ export const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
-              <p>I have knowledge and use the following technologies: React, JavaScript, HTML, CSS, focused on Responsive Web Design and Development. On the other hand, I have knowledge of Python, SQL and Mongo in data handling.</p>
+              <p>I have knowledge and have used the following technologies: MERN Stack (React, Node, Express and MongoDB), and Responsive Design with CSS, MaterialUI, Bootstrap and Tailwind. On the other hand, I have knowledge of Python, PowerBI, MySQL and Mongo in data handling.</p>
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                 <div className="item">
                   <img src={vite} alt="Image" style={{ maxHeight: "111.5px" }} />

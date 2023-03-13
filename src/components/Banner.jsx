@@ -4,6 +4,9 @@ import headerImg from "../assets/img/header-img.svg";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
+import { BrowserRouter as Router } from "react-router-dom";
+import { HashLink } from 'react-router-hash-link';
+
 
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
@@ -58,10 +61,12 @@ export const Banner = () => {
                 <span className="tagline">Welcome to my Portfolio</span>
                   <h1>{`Hi! I'm Camilo Cárdenas Poveda`} <br></br> </h1>
                   <h4><span className="txt-rotate" dataperiod="1000" data-rotate='[ "Musician", "Web Developer", "Web Designer", "UI/UX Designer", "Data Analyst", "Consultant", "Sustainability Analyst" ]'><span className="wrap">{text}</span></span></h4>
-                  <p>I am a cheerful, responsible and proactive person. At the end of my professional career I began to certify myself as a Data Scientist and Web Developer in the DataCamp and SoloLearn platforms respectively. Through this experience I have learned to analyze data with Python, R and SQL, as well as Web Development in HTML, CSS and JavaScript.
-                    <br></br>
-                    <br></br>I am currently studying the Full-Stack Developer bootcamp at Prográmate-School in the EducaMás, GOYN & Simplon partnership program.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  <p>I am a cheerful, responsible and proactive person. At the end of my professional career I began to certify myself as a Data Scientist in the DataCamp platform, and as a Web Developer in the SoloLearn platform combined with a scholarship to study in the Full-Stack Development Bootcamp at Prográmate-Academy powered by EducaMás, GOYN & Simplon partnership program. Through these experiences I have learned to analyze data with Python and SQL, as well as Web Development with the MERN Stack.</p>
+                  <Router>
+                    <HashLink to="#connect" style={{textDecoration:"none"}}>
+                      <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                    </HashLink>
+                  </Router>
               </div>}
             </TrackVisibility>
           </Col>
