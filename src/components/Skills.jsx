@@ -78,10 +78,6 @@ export const Skills = () => {
                   <h5>MongoDB</h5>
                 </div>
                 <div className="item">
-                  <img src={express} alt="Image" style={{ maxHeight: "111.5px" }} />
-                  <h5>Express</h5>
-                </div>
-                <div className="item">
                   <img src={express2} alt="Image" style={{ maxHeight: "111.5px" }} />
                   <h5>Express</h5>
                 </div>
