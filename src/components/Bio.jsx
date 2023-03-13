@@ -4,6 +4,7 @@ import Perfil from '../assets/img/PerfilSinFondo.png'
 import PerfilCircular from '../assets/img/PerfilCircularFondoNegro.svg'
 import TrackVisibility from 'react-on-screen';
 import { Container, Row, Col } from "react-bootstrap";
+import { ArrowRightCircle } from 'react-bootstrap-icons';
 
 
 export const Bio = () => {
@@ -52,9 +53,10 @@ export const Bio = () => {
                     <TrackVisibility>
                       {({ isVisible }) =>
                         <div className={isVisible? "animate__animated animate__fadeIn":""}>
-                          <p>Fullstack developer with advanced English. Interest in web development, sustainability, finance and data science. Projects carried out in the design and development of e-commerce and user management pages and project management interfaces. Management of the MERN Stack (Mongo, Express, React and Node) as well as Python, SQL and Responsive Design with CSS, MaterialUI, Bootstrap and Tailwind. I characterize myself by my design, creativity, teamwork, adaptability to change, leadership, teaching and project management skills focused on achieving results.
+                          <p>Fullstack developer with advanced English. Interest in web development, sustainability, finance and data science. 🌎 Projects carried out in the design and development of e-commerce and user management pages and project management interfaces. 🧑🏻‍🏫 Management of the MERN Stack (Mongo, Express, React and Node) as well as Python, SQL and Responsive Design with CSS, MaterialUI, Bootstrap and Tailwind. 🎨 I characterize myself by my design, creativity, teamwork, adaptability to change, leadership, teaching and project management skills focused on achieving results. 👨🏻‍💻
                             <br></br>
                             <br></br>Business Administrator (B.B.A.) & Musician (B.A. in Mus.) with Emphasis in Composition for Film & Media from Universidad de los Andes, Colombia 🤓 | I graduated from the Full-Stack Developer Bootcamp at Prográmate-Academy powered by EducaMás, GOYN & Simplon partnership program.</p>
+                          <a href="https://www.canva.com/design/DAFciDznCe0/7qMupFMOlxDV_ZDSHkMT5g/view?utm_content=DAFciDznCe0&utm_campaign=designshare&utm_medium=link&utm_source=publishsharelink" target="_blank" style={{ color: "white" }}><button style={{ color: "white" }} className="cv_arrow">Get my CV in Spanish  <ArrowRightCircle size={25} style={{ color: "white" }} /></button></a>
                         </div>}
                     </TrackVisibility>
                   </Col>
