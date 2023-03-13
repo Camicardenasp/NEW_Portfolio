@@ -6,14 +6,14 @@ export const ProjectCard = ({ title, description, imgUrl, github, deploy }) => {
       <div className="proj-imgbx">
         <img src={imgUrl} />
         <div className="proj-txtx">
-          <h4>{title}</h4>
+          <h5>{title}</h5>
           <span>{description}</span>
           <span className="proj-but-span">
             <button className="proj-button">
               <a href={deploy} target="_blank">Deploy</a>
             </button>
             <button className="proj-button">
-              <a href={github} target="_blank">Github</a>
+              <a href={github} target="_blank">Structure</a>
             </button>
           </span>
         </div>

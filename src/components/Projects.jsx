@@ -3,7 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import Pawe from '../assets/img/Pawe.png'
 import Portfolio from '../assets/img/Porfolio.png'
 import Music from '../assets/img/Music.png'
-import Rick from '../assets/img/Rick.png'
+import Video from '../assets/img/Video.png'
 import Cuerda from '../assets/img/Cuerda.png'
 import Sound from '../assets/img/Sound.png'
 import Marca from '../assets/img/Marca.png'
@@ -54,11 +54,11 @@ export const Projects = () => {
       deploy: "https://musicportfolio.camicardenasp.repl.co/",
     },
     {
-      title: "Rick & Morty",
-      description: "API Consumption",
-      imgUrl: Rick,
-      github: "https://github.com/Camicardenasp/rick",
-      deploy: "https://camicardenasp.github.io/rick/",
+      title: "VideoClub",
+      description: "CRUD Application",
+      imgUrl: Video,
+      github: "https://github.com/Camicardenasp/videoclub-front",
+      deploy: "https://myvideoclub.netlify.app/",
     },
     {
       title: "NTF's Landing Page",
@@ -72,16 +72,22 @@ export const Projects = () => {
       title: "SoundWave Music App",
       description: "Figma UI Design",
       imgUrl: Sound,
+      github: "https://www.figma.com/file/ikFCu8PXBeOtvzU2FDXJwI/LandingPage_SoundWave_Camilo_C%C3%A1rdenas?node-id=351%3A11&t=lO54yMgd5w9fVxju-1",
+      deploy: "https://www.figma.com/proto/ikFCu8PXBeOtvzU2FDXJwI/LandingPage_SoundWave_Camilo_C%C3%A1rdenas?node-id=25%3A101",
     }, 
     {
       title: "Use of Brand Manual",
       description: "Figma UI Design",
       imgUrl: Marca,
+      github: "https://www.figma.com/file/CabyhWz5jxifYKf5HfAkg9/Manual-de-Marca-Personal---Camilo-C%C3%A1rdenas?node-id=0%3A1&t=1ZQYLVD1GWqfwWeE-1",
+      deploy: "https://www.figma.com/proto/CabyhWz5jxifYKf5HfAkg9/Manual-de-Marca-Personal---Camilo-C%C3%A1rdenas?node-id=745%3A112&scaling=contain&page-id=0%3A1&starting-point-node-id=738%3A68",
     }, 
     {
       title: "Spotify Clone",
       description: "Figma UI Design",
       imgUrl: Spotify,
+      github: "https://www.figma.com/file/U50rrayNi8TGYxKQB5nqf9/Spotify-Web---Camilo-C%C3%A1rdenas?node-id=0%3A1&t=i0VKAjHhQsEzGVEG-1",
+      deploy: "https://www.figma.com/proto/U50rrayNi8TGYxKQB5nqf9/Spotify-Web---Camilo-C%C3%A1rdenas?node-id=114%3A74&scaling=scale-down",
     },
   ];
 
