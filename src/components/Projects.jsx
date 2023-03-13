@@ -80,7 +80,7 @@ export const Projects = () => {
       description: "Figma UI Design",
       imgUrl: Marca,
       github: "https://www.figma.com/file/CabyhWz5jxifYKf5HfAkg9/Manual-de-Marca-Personal---Camilo-C%C3%A1rdenas?node-id=0%3A1&t=1ZQYLVD1GWqfwWeE-1",
-      deploy: "https://www.figma.com/proto/CabyhWz5jxifYKf5HfAkg9/Manual-de-Marca-Personal---Camilo-C%C3%A1rdenas?node-id=745%3A112&scaling=contain&page-id=0%3A1&starting-point-node-id=738%3A68",
+      deploy: "https://www.figma.com/proto/CabyhWz5jxifYKf5HfAkg9/Manual-de-Marca-Personal---Camilo-C%C3%A1rdenas?node-id=738%3A68&scaling=contain&page-id=0%3A1&starting-point-node-id=738%3A68",
     }, 
     {
       title: "Spotify Clone",
