@@ -51,7 +51,7 @@ export const Skills = () => {
           <div className="col-12">
             <div className="skill-bx wow zoomIn">
               <h2>Skills</h2>
-              <p>I have knowledge and have used the following technologies: MERN Stack (React, Node, Express and MongoDB), and Responsive Design with CSS, MaterialUI, Bootstrap and Tailwind. On the other hand, I have knowledge of Python, PowerBI, MySQL and Mongo in data handling.</p>
+              <p>I have knowledge of and have used the following technologies: MERN Stack (React, Node, Express and MongoDB), and Responsive Design with CSS, MaterialUI, Bootstrap and Tailwind. On the other hand, I have knowledge of Python, PowerBI, MySQL and Mongo in data handling.</p>
               <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                 <div className="item">
                   <img src={vite} alt="Image" style={{ maxHeight: "111.5px" }} />
