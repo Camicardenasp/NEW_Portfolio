@@ -1,21 +1,25 @@
+
 /************ Custom Font ************/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
 @font-face {
-  font-family: Centra;
+  font-family: Poppins;
   src: url('./assets/font/CentraNo2-Bold.ttf');
   font-weight: 700;
 }
 
 @font-face {
-  font-family: Centra;
+  font-family: Poppins;
   src: url('./assets/font/CentraNo2-Medium.ttf');
   font-weight: 500;
 }
 
 @font-face {
-  font-family: Centra;
+  font-family: Poppins;
   src: url('./assets/font/CentraNo2-Book.ttf');
   font-weight: 400;
 }
+
 
 /************ Default Css ************/
 * {
@@ -33,9 +37,9 @@ body {
   font-weight: 400;
   overflow-x: hidden;
   position: relative;
-  background-color: #121212 !important;
+  background-color: #0b0f15 !important;
   color: #fff !important;
-  font-family: 'Centra', sans-serif !important;
+  font-family: 'Poppins', sans-serif !important;
 }
 
 h1,
@@ -107,11 +111,11 @@ nav.navbar {
 
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: #0b0f15;
 }
 
 #basic-navbar-nav {
-  background-color: #121212;
+  background-color: #0b0f15;
 }
 
 nav.navbar a.navbar-brand {
@@ -138,6 +142,9 @@ a.navbar-brand {
 @media (min-width: 992px) {
   a.navbar-brand {
     margin: 25px;
+  }
+  #basic-navbar-nav {
+    background-color: transparent;
   }
 }
 
@@ -247,7 +254,7 @@ span.navbar-text {
 }
 
 .navbar-text button:hover {
-  color: #121212 !important;
+  color: #0b0f15 !important;
   background-color: #fff !important;
 }
 
@@ -330,7 +337,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   font-weight: 700;
   letter-spacing: 0.8px;
   padding: 8px 10px;
-  background: linear-gradient(90.21deg, rgba(170, 54, 124, 0.5) -5.91%, rgba(74, 47, 189, 0.5) 111.58%);
+  background: linear-gradient(90.21deg, rgba(28, 218, 255, 0.5) -5.91%,  rgba(66, 227, 150, 0.5) 111.58%);
   border: 1px solid rgba(255, 255, 255, 0.5);
   font-size: 20px;
   margin-bottom: 16px;
@@ -347,7 +354,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 }
 
 .banner p {
-  color: #B8B8B8;
+  color: #ece9e9;
   font-size: 18px;
   letter-spacing: 0.8px;
   line-height: 1.5em;
@@ -404,7 +411,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 }
 
 .skill-bx {
-  background: #151515;
+  background: #0b0f11;
   border-radius: 64px;
   text-align: center;
   padding: 60px 50px;
@@ -498,7 +505,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
   position: absolute;
   width: 0;
   height: 100%;
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #42E396 -5.91%, #4A2FBD 111.58%);
   top: 0;
   left: 0;
   z-index: -1;
@@ -537,7 +544,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #42E396 -5.91%, #4A2FBD 111.58%);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -625,7 +632,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: linear-gradient(90.21deg, #42E396 -5.91%, #4A2FBD 111.58%);
   padding: 60px 0 200px 0;
 }
 
@@ -658,7 +665,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 .contact form input:focus,
 .contact form textarea:focus {
   background: rgba(255, 255, 255, 1);
-  color: #121212;
+  color: #0b0f15;
 }
 
 .contact form input::placeholder,
@@ -670,7 +677,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 .contact form input:focus::placeholder,
 .contact form textarea:focus::placeholder {
-  color: #121212;
+  color: #0b0f15;
   opacity: 0.8;
 }
 
@@ -697,7 +704,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 .contact form button::before {
   content: "";
-  background: #121212;
+  background: #0b0f15;
   width: 0;
   height: 100%;
   position: absolute;
@@ -730,7 +737,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 .newsletter-bx {
   background: #FFFFFF;
   border-radius: 55px;
-  color: #121212;
+  color: #0b0f15;
   padding: 85px 125px;
   margin-bottom: 80px;
   margin-top: -122px;
@@ -778,7 +785,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon:before {
 
 .new-email-bx input {
   width: 100%;
-  color: #121212;
+  color: #0b0f15;
   font-weight: 500;
   background: transparent;
   border: 0;
